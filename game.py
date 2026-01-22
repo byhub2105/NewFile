@@ -60,7 +60,6 @@ def fight(player):
     print(f" Ви отримали {gold} золота!")
     return True
 def end_game(player):
-    """Завершення гри"""
     if player["hp"] <= 0:
         print("\n Ви програли. Герой загинув.")
     else:
